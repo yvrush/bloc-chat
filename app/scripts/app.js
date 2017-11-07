@@ -12,9 +12,9 @@
                 controller: 'HomeCtrl as home',
                 templateUrl: '/templates/home.html'
             })
-            .state('rooms', {
+            .state('brooms', {
                 url: '/',
-                controller: 'RoomCtrl as home',
+                controller: 'RoomCtrl as brooms',
                 templateUrl: '/templates/home.html'
             });
     }
