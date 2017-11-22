@@ -1,1 +1,13 @@
-<div ng-repeat="room in home.rooms">{{room.name}}</div>
+<head>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<div class="box">
+    <h2>Bloc chat</h2><button ng-click="home.addRoom()" class="btn btn-primary pull-right"><i class="icon-white icon-plus"></i> Add New Room</button>
+    <div class="div1" ng-repeat="room in home.rooms">{{room.name}}</div>
+
+    <div class="div2">Messages</div>
+    <div class="clear">
+    </div>
+</div>
+
+

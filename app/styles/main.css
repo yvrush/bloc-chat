@@ -1,0 +1,29 @@
+div.box {
+  background: #fff;
+  height: 400px;
+  width: 700px;
+  padding:10px;
+}
+
+div.div1 {
+  background: #999;
+  float: auto;
+  height: 20px;
+  width: 25%;
+  
+}
+
+div.div2 {
+  background: #FF9;
+  height: 100%;
+  width: 75%;
+  float: right;
+}
+
+div.clear {
+  clear: both;
+  height: 15px;
+  overflow: hidden;
+  font-size: 0pt;
+  margin-top: -1px;
+}
