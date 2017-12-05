@@ -11,6 +11,7 @@ div.div1 {
   width: 77%;
   float:left;
   padding-left: 20px;
+      padding-top: 3px
   
 }
 
@@ -38,3 +39,4 @@ button {
     float:right;
     position: relative;
 }
+
