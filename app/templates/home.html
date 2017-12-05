@@ -1,13 +1,22 @@
 <head>
     <link rel="stylesheet" href="/styles/main.css">
 </head>
-<div class="box">
-    <h2>Bloc chat</h2><button ng-click="home.addRoom()" class="btn btn-primary pull-right"><i class="icon-white icon-plus"></i> Add New Room</button>
-    <div class="div1" ng-repeat="room in home.rooms">{{room.name}}</div>
-
-    <div class="div2">Messages</div>
-    <div class="clear">
-    </div>
+<div>
+<h2 >Bloc chat</h2>
+<div ><h4>{{home.activeRoom.name}}</h4></div>
 </div>
 
+<div class="box pull-left">
+    <div>
+        <div ng-repeat="room in home.rooms" ng-click="home.activateRoom(room);">{{room.name}}<br></div>
+    </div>
+    <button  ng-click="home.addRoom()" class="btn btn-primary btn-blk">Add New Room</button>
+    
+</div>
+
+<div >
+
+ <div class="div1" ng-repeat="message in home.messages"> {{message.content}} <div>
+ 
+</div>
 

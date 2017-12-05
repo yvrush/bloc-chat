@@ -1,23 +1,24 @@
 div.box {
-  background: #fff;
-  height: 400px;
-  width: 700px;
+  background: #ddd;
+  height: 800px;
+  width: 400px;
   padding:10px;
 }
 
 div.div1 {
-  background: #999;
-  float: auto;
-  height: 20px;
-  width: 25%;
+  background: #FF9;
+  height: 25px;
+  width: 77%;
+  float:left;
+  padding-left: 20px;
   
 }
 
 div.div2 {
   background: #FF9;
   height: 100%;
-  width: 75%;
-  float: right;
+  width: 55%;
+  float:right;
 }
 
 div.clear {
@@ -26,4 +27,14 @@ div.clear {
   overflow: hidden;
   font-size: 0pt;
   margin-top: -1px;
+}
+
+h2 {
+    background: #999;
+    
+}
+
+button {
+    float:right;
+    position: relative;
 }

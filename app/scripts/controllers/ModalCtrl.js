@@ -3,7 +3,7 @@
         this.submit = function() {
             
             Room.add($scope.roomName);
-            $scope.roomName.$setPristine();
+            $uibModalInstance.close();
             
         };
         this.dismiss = function(){
